@@ -14,7 +14,7 @@ namespace DropNet
 {
     public partial class DropNetClient
     {
-        private const string ApiBaseUrl = "https://api.dropbox.com";
+        private const string ApiBaseUrl = "https://api.dropbox.master.com";
         private const string ApiContentBaseUrl = "https://api-content.dropbox.com";
         private const string ApiNotifyUrl = "https://api-notify.dropbox.com";
         private const string Version = "1";
