@@ -9,7 +9,7 @@ namespace DropNet
     public partial class DropNetClient
     {
         /// <summary>
-        /// Gets a token from the almightly dropbox.com (Token cant be used until authorized!)
+        /// Gets a token sstestadded from the almightly dropbox.com (Token cant be used until authorized!)//Changes from subbranch1
         /// </summary>
         public void GetTokenAsync(Action<UserLogin> success, Action<DropboxException> failure)
         {
