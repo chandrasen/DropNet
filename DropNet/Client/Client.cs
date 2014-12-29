@@ -18,7 +18,7 @@ namespace DropNet
         private const string ApiContentBaseUrl = "https://api-content.dropbox.com";
         private const string ApiNotifyUrl = "https://api-notify.dropbox.com";
         private const string Version = "1";
-
+        //changes from client
         private UserLogin _userLogin;
 
         /// <summary>
