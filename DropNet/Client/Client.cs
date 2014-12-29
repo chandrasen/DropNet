@@ -14,13 +14,14 @@ namespace DropNet
 {
     public partial class DropNetClient
     {
+        //changes from server
         private const string ApiBaseUrl = "https://api.dropbox.test.fromServerchandr.com";
         private const string ApiContentBaseUrl = "https://api-content.dropbox.com";
         private const string ApiNotifyUrl = "https://api-notify.dropbox.com";
         private const string Version = "1";
 
         private UserLogin _userLogin;
-
+   
         /// <summary>
         /// Contains the Users Token and Secret
         /// </summary>
