@@ -17,7 +17,7 @@ namespace DropNet
         /// <param name="failure">Failure call back </param>
         public void GetMetaDataAsync(string path, Action<MetaData> success, Action<DropboxException> failure)
         {
-            //Changes in local
+            //Confliction resolved
             if (!string.IsNullOrEmpty(path) && !path.StartsWith("/"))
             {
                 path = "/" + path;
