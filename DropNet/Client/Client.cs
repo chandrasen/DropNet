@@ -14,7 +14,7 @@ namespace DropNet
 {
     public partial class DropNetClient
     {
-        //merge updated(deleted) from server
+        //Universal changes from local
         private const string ApiBaseUrl = "https://api.dropbox.test.fromServerchandr.com";
         private const string ApiContentBaseUrl = "https://api-content.dropbox.com";
         private const string ApiNotifyUrl = "https://api-notify.dropbox.com";
